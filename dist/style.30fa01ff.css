@@ -37,7 +37,7 @@ a {
 .block_1 {
 	/* font-family: 'PT Sans Caption', sans-serif; */
 	/* min-height: 80vh; */
-	background-image: linear-gradient(to right, rgba(62, 62, 145, 0.544), rgba(62, 62, 145, 0.644)), url(../img/1_block/img-block1.jpg);
+	background-image: linear-gradient(to right, rgba(62, 62, 145, 0.544), rgba(62, 62, 145, 0.644)), url(img-block1.a55d672e.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
@@ -45,7 +45,7 @@ a {
 }
 /*>>>>>>>>>>>>>>>>Добавляем класс для изменения фона<<<<<<<<<<<<<<*/
 .block_active {
-	background-image: linear-gradient(to right, rgba(62, 62, 145, 0.544), rgba(62, 62, 145, 0.644)), url(../img/1_block/img-block2.jpg);
+	background-image: linear-gradient(to right, rgba(62, 62, 145, 0.544), rgba(62, 62, 145, 0.644)), url(img-block2.e565a225.jpg);
 
 }
 .logo {
@@ -281,7 +281,7 @@ label {
 .calc {
 	width: 100%;
 	min-height: 100vh;
-	background-image: linear-gradient(to right, rgba(62, 62, 145, 0.544), rgba(62, 62, 145, 0.644)), url(../img/calcbg.jpg);
+	background-image: linear-gradient(to right, rgba(62, 62, 145, 0.544), rgba(62, 62, 145, 0.644)), url(calcbg.2117ab10.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 15px 0;
@@ -457,7 +457,7 @@ label {
 .check input[type="checkbox"]:checked + label::before {
 	background: rgb(240, 220, 220);
 	border-radius: 50%;
-	background-image: url(../img/check-mark-31.png);
+	background-image: url(check-mark-31.fb279837.png);
 	background-size: 100%;
 	border: 1px solid rgba(37, 39, 37, 0.26);
 	box-sizing: border-box;
@@ -526,7 +526,7 @@ label {
 .add_service input[type="checkbox"]:checked + label::before {
 	border-radius: 50%;
 	background: rgb(240, 220, 220);
-	background-image: url(../img/check-mark-31.png);
+	background-image: url(check-mark-31.fb279837.png);
 	background-size: 100%;
 	border: 1px solid rgba(37, 39, 37, 0.26);
 	box-sizing: border-box;

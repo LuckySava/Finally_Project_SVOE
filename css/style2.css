@@ -341,44 +341,6 @@
 
 /* Кнопки вперед и назад */
 
-/* >>>>>>>> Наведення мишою класи для JS <<<<<<<<<<<<< */
-.arrow_text_left {
-    display: inline-block;
-    color: #fff;
-    font-size: 20px;
-    position: absolute;
-    left: 15px;
-    top: 10px;
-    opacity: 0;
-    transition: .3s;
-}
-.arrow_text_right {
-    display: inline-block;
-    color: #fff;
-    font-size: 20px;
-    position: absolute;
-    right: 15px;
-    top: 10px;
-    opacity: 0;
-    transition: .3s;
-}
-.activeRight {
-    background: rgb(255, 217, 0);
-    position: relative;
-}
-.activeRight::before {
-    transform: translate(40px, -16px) rotate(25deg);
-    background: rgb(255, 217, 0)
-}
-.activeLeft {
-    background: rgb(255, 217, 0);
-    vertical-align: middle;
-    position: relative;
-}
-.activeLeft::after {
-    transform: translate(-40px, 16px) rotate(25deg);
-    background: rgb(255, 217, 0);
-} 
 
 /* >>>>>>>>>>>>>>> Animation for span <<<<<<<<<<<<<<<<<<<<<<<<< */
 @-webkit-keyframes pulsate {
