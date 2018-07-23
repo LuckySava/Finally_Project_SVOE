@@ -33,7 +33,7 @@
 	width: 100%;
 /*	min-height: 100vh;*/
 	padding: 15px 0;
-	background-image: linear-gradient(to right, rgba(62, 62, 145, 0.544), rgba(62, 62, 145, 0.544)), url(../img/2_block/img-block2.jpg);
+	background-image: linear-gradient(to right, rgba(62, 62, 145, 0.544), rgba(62, 62, 145, 0.544)), url(img-block2.32f02f6c.jpg);
 	background-size: cover;
 	text-align: center;
 	padding: 0;
@@ -72,15 +72,15 @@
 	min-height: 65vh;
 }
 .landing-image {
-	background-image: url(../img/2_block/land.jpg);
+	background-image: url(land.26a812c9.jpg);
 	background-size: 63%;
 }
 .website-image{
-	background-image: url(../img/2_block/corp.png);
+	background-image: url(corp.96311c10.png);
 	background-size: 92%;
 }
 .shop-image {
-	background-image: url(../img/2_block/shop.jpg);
+	background-image: url(shop.10959dc8.jpg);
 	background-size: 80%;
 }
 .all-block2 {
