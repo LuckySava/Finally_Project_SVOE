@@ -24,7 +24,7 @@
 	<title>Welcome to us</title>
 </head>
 <body>
-	<section id="number1">
+	<section id="number1" class="section1">
 	<div class="block_1" id="block_1">
 		<div class="wrapper">
 			<div class="logo">
@@ -79,10 +79,10 @@
 				<div class="arrows_line">
 					<div class="arrows_line_middle" id="arrow_middle"></div>
 				</div>
-				<a class="arrow arrows_left" id="arrows_left" href="#">
+				<a onclick="skipTo_5()" class="arrow arrows_left" id="arrows_left" href="#">
 					<span id="arrow_text_left" class="arrow_text_left">Previous</span>
 				</a>
-				<a class="arrow arrows_right" id="arrows_right" href="#">
+				<a onclick="skipTo_2()" class="arrow arrows_right" id="arrows_right" href="#">
 					<span id="arrow_text_right" class="arrow_text_right">Next</span>
 				</a>
 			</div>
@@ -100,7 +100,7 @@
 	</section>
 
 <!-- <<<<<<<<<<<<<<<<<<<<<<< Block2 Dmytrenko >>>>>>>>>>>>>>>>>>> -->
-	<section id="number2">
+	<section id="number2" class="section2">
 		<div class="block_2">
 			<div class="wrapper">
 					<!-- _________________Arrows_________ -->
@@ -109,10 +109,10 @@
 							<div class="arrows_line_middle" id="arrow_middle">
 							</div>
 						</div>
-						<a class="arrow arrows_left" id="arrows_left" href="#">
+						<a onclick="skipTo_Home()" class="arrow arrows_left" id="arrows_left" href="#">
 							<span id="arrow_text_left" class="arrow_text_left">Previous</span>
 						</a>
-						<a class="arrow arrows_right" id="arrows_right" href="#">
+						<a onclick="skipTo_3_3()" class="arrow arrows_right" id="arrows_right" href="#">
 							<span id="arrow_text_right" class="arrow_text_right">Next</span>
 						</a>
 					</div>
@@ -120,7 +120,7 @@
 						<a href=""><i class="fas fa-home"></i></a>
 					<h1 class="block2_main_text"> Типы сайтов </h1>
 					<div class="all-items-wrap">
-						<div class="all-block2">
+						<div class="all-block2" onclick="skipTo_3_3()">
 							<div class="div-icon-block2"><img class="icon-block2" src="./img/2_block/landing.png"></div>
 							<div class="description"> <a class="description-link" href="#" target="_self">
 								<div class="text-pulse"><h3 class="block2_additional_text">Landing Page</h3></div> 
@@ -136,7 +136,7 @@
 							</div>
 							<div class="landing-image"></div>
 						</div>
-						<div class="all-block2">
+						<div class="all-block2" onclick="skipTo_3()">
 							<div class="div-icon-block2"><img class="icon-block2" src="./img/2_block/website.png"></div>
 							<div class="description"> <a href="#" class="description-link" target="_self">
 								
@@ -154,7 +154,7 @@
 							</div>
 							<div class="website-image"></div>
 						</div>
-						<div class="all-block2">
+						<div class="all-block2" onclick="skipTo_3_2()">
 							<div class="div-icon-block2"><img class="icon-block2" src="./img/2_block/shop.png"></div>
 							<div class="description"> <a href="#" class="description-link" target="_self">
 								
@@ -182,11 +182,11 @@
 	
 	
 		<!----------Block_1_Kudovbenko---------->
-	
-	<div class="block_3">
+<section class="section3">
+			<div class="block_3">
 		<div class="wrapper">
 			<div class="calc_block">
-			   <a href="https://luckysava.github.io/diplom_project/" href="#" class="button9"><img src="img/3_block/Home.png"></a>
+			   <a onclick="skipTo_Home()" href="#" class="button9"><img src="img/3_block/Home.png"></a>
 				<h1 class="block3_price">Стоимость разработки "Корпоративный сайт"</h1>
 				<div class="all_offer_block">
 					<div class="offer__item">
@@ -207,7 +207,7 @@
 					</div>
 				</div>
 
-							<div class="offer__text">
+							<div class="offer__text" onclick="skipTo_5()">
 								<p>
 									<b>&#10004; </b>Уникальный дизайн<br>
 									<b>&#10004; </b>Подключение CMS<br>
@@ -238,7 +238,7 @@
 						</div>
 					</div>
 				</div>
-							<div class="offer__text">
+							<div class="offer__text" onclick="skipTo_5()">
 								<p>
 									<b>&#10004; </b>Уникальный дизайн<br>
 									<b>&#10004; </b>Подключение CMS<br>
@@ -268,7 +268,7 @@
 						</div>
 					</div>
 				</div>
-							<div class="offer__text">
+							<div class="offer__text" onclick="skipTo_5()">
 								<p>	
 									<b>&#10004; </b>Уникальный дизайн<br>
 									<b>&#10004; </b>Подключение CMS<br>
@@ -286,26 +286,29 @@
 					<div class="arrows_line">
 						<div class="arrows_line_middle activeRight" id="arrow_middle"></div>
 					</div>
-					<a class="arrow arrows_left" id="arrows_left" href="#">
+					<a onclick="skipTo_2()" class="arrow arrows_left" id="arrows_left" href="#">
 					<span id="arrow_text_left" class="arrow_text_left" style="opacity: 0;">Previous</span>
 					</a>
-					<a class="arrow arrows_right" id="arrows_right" href="#">
+					<a onclick="skipTo_4()" class="arrow arrows_right" id="arrows_right" href="#">
 					<span id="arrow_text_right" class="arrow_text_right" style="opacity: 1;">Next</span>
 					</a>
 
 				</div>
-               <a class="btn_calc" href='https://luckysava.github.io/diplom_project_calk/#'"> Дополнительные услуги </a>
+               <a onclick="skipTo_4()" class="btn_calc" href="#"> Дополнительные услуги </a>
 			</div>
 		</div>
 	</div>
-</div>
+	</div>
+	</div>
+</section>
+
 
 <!---------Block_2_Kudovbenko-------->
-
-<div class="block_3">
+<section class="section3_2">
+	<div class="block_3">
         <div class="wrapper">
 			<div class="calc_block">
-			  <a href="https://luckysava.github.io/diplom_project/" href="#" class="button9"><img src="img/3_block/Home.png"></a>
+			  <a href="#" class="button9"><img src="img/3_block/Home.png"></a>
 				<h1 class="block3_price">Стоимость разработки "Интернет-магазина"</h1>
 				<div class="all_offer_block">
 					<div class="offer__item">
@@ -326,7 +329,7 @@
 					</div>
 				</div>
 			
-							<div class="offer__text">
+							<div class="offer__text" onclick="skipTo_5()">
 
 								<p>
 									<b>&#10004; </b>Уникальный дизайн<br>
@@ -358,7 +361,7 @@
 					</div>
 				</div>
 						
-							<div class="offer__text">
+							<div class="offer__text" onclick="skipTo_5()">
 								<p>
 									<b>&#10004; </b>Уникальный дизайн<br>
 									<b>&#10004; </b>Схема проезда<br>
@@ -388,7 +391,7 @@
 						</div>
 					</div>
 				</div>
-							<div class="offer__text">
+							<div class="offer__text" onclick="skipTo_5()">
 								<p>
 									<b>&#10004; </b>Уникальный дизайн<br>
 									<b>&#10004; </b>Схема проезда<br>
@@ -407,25 +410,27 @@
 					<div class="arrows_line">
 						<div class="arrows_line_middle activeRight" id="arrow_middle"></div>
 					</div>
-					<a class="arrow arrows_left" id="arrows_left" href="#">
+					<a onclick="skipTo_2()" class="arrow arrows_left" id="arrows_left" href="#">
 					<span id="arrow_text_left" class="arrow_text_left" style="opacity: 0;">Previous</span>
 					</a>
-					<a class="arrow arrows_right" id="arrows_right" href="#">
+					<a onclick="skipTo_5()" class="arrow arrows_right" id="arrows_right" href="#">
 					<span id="arrow_text_right" class="arrow_text_right" style="opacity: 1;">Next</span>
 					</a>
 
 				</div>
-               <a class="btn_calc" href='https://luckysava.github.io/diplom_project_calk/#'"> Дополнительные услуги </a>
+               <a onclick="skipTo_4()" class="btn_calc" href="#"> Дополнительные услуги </a>
 			</div>
 		</div>
 	</div>
 </section>
+
+
 	<!------------Block_3_Kudovbenko---------->
-	<section>
+<section class="section3_3">
 	<div class="block_3">
 		<div class="wrapper">
 			<div class="calc_block">
-			   <a href="https://luckysava.github.io/diplom_project/" href="#" class="button9"><img src="img/3_block/Home.png"></a>
+			   <a onclick="skipTo_Home()" href="#" class="button9"><img src="img/3_block/Home.png"></a>
 				<h1 class="block3_price">Стоимость разработки "Landing page"</h1>
 				<div class="all_offer_block">
 					<div class="offer__item">
@@ -445,7 +450,7 @@
 						</div>
 					</div>
 				</div>
-							<div class="offer__text">
+							<div class="offer__text" onclick="skipTo_5()">
 								<p>
 									<b>&#10004; </b>Уникальный дизайн<br>
 									<b>&#10004; </b>Адаптивный дизайн<br>
@@ -475,7 +480,7 @@
 						</div>
 					</div>
 				</div>
-							<div class="offer__text">
+							<div class="offer__text" onclick="skipTo_5()">
 								<p>	
 									<b>&#10004; </b>Уникальный дизайн<br>
 									<b>&#10004; </b>Адаптивный дизайн<br>
@@ -507,7 +512,7 @@
 						</div>
 					</div>
 				</div>
-							<div class="offer__text">
+							<div class="offer__text" onclick="skipTo_5()">
 								<p>	
 									<b>&#10004; </b>Уникальный дизайн<br>
 									<b>&#10004; </b>Адаптивный дизайн<br>
@@ -525,27 +530,28 @@
 					<div class="arrows_line">
 						<div class="arrows_line_middle activeRight" id="arrow_middle"></div>
 					</div>
-					<a class="arrow arrows_left" id="arrows_left" href="#">
+					<a onclick="skipTo_2()" class="arrow arrows_left" id="arrows_left" href="#">
 					<span id="arrow_text_left" class="arrow_text_left" style="opacity: 0;">Previous</span>
 					</a>
-					<a class="arrow arrows_right" id="arrows_right" href="#">
+					<a onclick="skipTo_4()" class="arrow arrows_right" id="arrows_right" href="#">
 					<span id="arrow_text_right" class="arrow_text_right" style="opacity: 1;">Next</span>
 					</a>
 
 				</div>
-               <a class="btn_calc" href='https://luckysava.github.io/diplom_project_calk/#'"> Дополнительные услуги </a>
+               <a onclick="skipTo_4()" class="btn_calc" href="#"> Дополнительные услуги </a>
 			</div>
 		</div>
 	</div>
-	
+	</div>
+</section>
+
 	<!-- - - - - - - - - - - - - - -  -->
-	<section id="number4">
+
+	<section id="number4" class="section4">
 		<div class="calc">
 				
 		<div class="wrapper">
-<!-- 				<div class="logo logo_section2">
-						<a><img src="img/logo.png" alt=""></a>
-				</div> -->
+
 			<div class="calc_block">
 
 				<div class="tabs">
@@ -686,9 +692,7 @@
 
 		</div>
 				<!-- logic_block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-				 <!-- logic_block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-				  <!-- logic_block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-				   <!-- logic_block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
 		<div class="service">
 
 				<h2>
@@ -773,12 +777,12 @@
 
 						<div class="total" id="total">
 
-						<a class="previousStep" href="#"><span>К выбору пакетa услуг</span></a>
+						<a onclick="skipTo_2()" class="previousStep" href="#"><span>К выбору пакетa услуг</span></a>
 
 						Общая стоимость 
 						<input value="150" type="text" class="total-count" id="total-value"> <small>($)</small>
 
-						<a class="orderItem" href="#"><span>Сделать заказ</span></a>
+						<a onclick="skipTo_5()" class="orderItem" href="#"><span>Сделать заказ</span></a>
 
 						</div>
 
@@ -790,13 +794,15 @@
 		</div>
 	</div>
 	</section>
+
 <!-- <<<<<<<<<<<<<<<<<<<<<<< Block5 Dmytrenko >>>>>>>>>>>>>>>>>>> -->
-	<section id="number5">
+
+	<section id="number5" class="section5">
 		<div class="block_5" id="block5">
 			<div class="wrapper">
 				<!-- <a href=""><i class="fas fa-home"></i></a> -->
-				<div class="logo5">
-					<span><a href="#block_1"><img src="img/logo.png" alt=""></span></a>
+				<div onclick="skipTo_Home()" class="logo5">
+					<span><a href="#"><img src="img/logo.png" alt=""></span></a>
 				</div>
 				<div class="calc_block5">
 					
@@ -827,24 +833,28 @@
 					<div class="arrows_line">
 						<div class="arrows_line_middle" id="arrow_middle"></div>
 					</div>
-					<a class="arrow arrows_left" id="arrows_left" href="#">
+					<a onclick="skipTo_4()" class="arrow arrows_left" id="arrows_left" href="#">
 						<span id="arrow_text_left" class="arrow_text_left">Previous</span>
 					</a>
 					<a class="arrow arrows_right" id="arrows_right" href="#">
 						<span id="arrow_text_right" class="arrow_text_right"></span>
 					</a>
 				</div>
-			</div>
-	</section>
 
-	<div class="footer">
+
+			</div>
+		<div class="footer">
 			<a href="#" class="wow fadeInLeftBig"><img src="./img/5_block/slice-1.png"></a>
 			<a href="#"><img src="./img/5_block/slice-2.png"></a>
 			<a href="#"><img src="./img/5_block/slice-3.png"></a>
 			<a href="#"><img src="./img/5_block/slice-4.png"></a>
 			<a href="#"><img src="./img/5_block/slice-5.png"></a>
 		</div>
+
 	</div>
+	</section>
+
+
 
 	<div class="modal" id="modal">
 		<div class="popup" id="popup">
@@ -864,9 +874,11 @@
 	<script src="js/section2.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/contact.js"></script>
+	<script src="js/showScreen.js"></script>
 
 <script>
 	new WOW().init();
 </script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
