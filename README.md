@@ -1,6 +1,6 @@
 # SVOE Team
 
-If you want to orger web site we know how to calculate it! )
+If you want to order web site we know how to calculate it! )
 
 ## How to start
 - Clone latest version
