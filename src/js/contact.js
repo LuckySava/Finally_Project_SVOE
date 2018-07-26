@@ -12,7 +12,7 @@ let overlayEle = document.getElementById('modal');
 contactForm.addEventListener("submit", (e) => {
 	e.preventDefault();
 	let form = new FormData(contactForm);
-	fetch('https://formspree.io/olena.reshetnik@gmail.com', {
+	fetch('https://formspree.io/forallthings@online.ua', {
 		method: 'post',
 		body: form
 	}).then(function(response) {

@@ -120,12 +120,12 @@ a {
 	letter-spacing: 0;
 }
 .items:hover .items_text, .items:hover .far {
-	color: #FFDD00;
+	color: #ff964f;
 	transition: 0.3s;
 }
 .items:hover .far {
 	transform: scale(1.05);
-	color: #e4e740f3;
+	color: #fff963;
 }
 
 /* Иконки для блоков */
@@ -216,21 +216,21 @@ transform: translate(40px, -10px) rotate(16deg)
 	transition: .3s;
 }
 .activeRight {
-	background: rgb(255, 217, 0);
+	background: #ff771b;
 	position: relative;
 }
 .activeRight::before {
 	transform: translate(40px, -10px) rotate(16deg);
-	background: rgb(255, 217, 0)
+	background: #ff771b;
 }
 .activeLeft {
-	background: rgb(255, 217, 0);
+	background: #ff771b;
 	vertical-align: middle;
 	position: relative;
 }
 .activeLeft::after {
 	transform: translate(-40px, 10px) rotate(16deg);
-	background: rgb(255, 217, 0);
+	background: #ff771b;
 } 
 /* >>>>>>>>>>>>> Переключение фона <<<<<<<<<<<<<<<<<<< */
 
@@ -324,8 +324,8 @@ label {
 	border-radius: 0 15px 0 0;
 }
 .active {
-	background: rgba(255, 213, 0, 0.949);
-	color: #000;
+	background: #fd954f;
+	color: #fff;
 	position: relative;
 }
 .active::after {
@@ -334,7 +334,7 @@ label {
 	width: 100%;
 	height: 2px;
 	display: inline-block;
-	background: rgba(255, 213, 0, 0.949);
+	background: #fd954f;
 	bottom: -10px;
 	left: 0;
 	
@@ -405,7 +405,7 @@ label {
 }
 
 .logick_block > span {
-	color: rgb(241, 241, 253);
+	color: rgb(241, 241, 253); 
 	display: flex;
 	justify-content: flex-start;
 	margin-bottom: 20px;
@@ -467,7 +467,7 @@ label {
 }
 .check input[type="checkbox"]:checked + label {
 	/* color: rgb(77, 224, 77) */
-	color: rgba(255, 213, 0, 0.949);
+	color: #f4944e;
 }
 .check label::before {
 	content: "";
@@ -535,7 +535,7 @@ label {
 	margin-right: 10px;
 }
 .add_service input[type="checkbox"]:checked + label {
-	color: rgba(255, 213, 0, 0.949);
+	color: #f4944e;
 }
 .add_service input[type="number"] {
 	border: 1px solid #E4DFDB;
@@ -548,7 +548,7 @@ label {
 	height: 27px;
 }
 .add_service input[type="number"]:focus {
-	border: 1px solid rgba(255, 213, 0, 0.949)
+	border: 1px solid #f4944e;
 }
 .total {
 	width: 100%;
@@ -582,7 +582,7 @@ label {
 
 /* >>>>>>>>>>>>>>>>>> Thubms up <<<<<<<<<<<<<<<<<<<<<< */
 .fa-thumbs-up {
-	color: rgba(255, 213, 0, 0.949);
+	color: #f4944e;
 	display: none;
 }
 /* >>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -608,8 +608,8 @@ label {
 
 } */
 .orderItem:hover, .previousStep:hover {
-	color: rgba(255, 213, 0, 0.949);
-	border: 1px solid rgba(255, 213, 0, 0.949);
+	color: #f4944e;
+	border: 1px solid #f4944e;
 }
 .previousStep {
 	display: inline-block;
@@ -681,7 +681,7 @@ label {
 	50% { color: rgba(255, 255, 255, 0.726); text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px rgb(223, 223, 211), 0 0 8px rgba(255, 255, 255, 0.774); }
    }
    .blink7 {
-	 color: rgba(235, 226, 226, 0.699);
+	 color: rgba(235, 226, 226, 0.699); 
 	 text-shadow: 0 -1px rgba(0,0,0,.1);
 	 background: rgba(239, 241, 239, 0);
 	 -webkit-animation: pulsate 1.2s linear infinite;

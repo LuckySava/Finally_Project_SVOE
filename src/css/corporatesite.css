@@ -49,10 +49,10 @@ body {
 
 }
 .btn_calc:hover{
-	border: 1px solid rgba(255, 213, 0, 0.949);
+	border: 1px solid #ff8822;
 	transition: 0.5s;
 	cursor: pointer;
-	color: rgba(255, 213, 0, 0.949);
+	color: #ff8822;
 	
 }
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<< Block_3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -176,9 +176,9 @@ a.button9:hover {
 
 }
 #btn-order:hover {
-	background: rgba(255, 213, 0, 0.949);
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    color: black;
+	background: #ff8822;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	color: white;
 }
 
 .offer__title__wrap {
