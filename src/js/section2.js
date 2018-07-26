@@ -9,7 +9,7 @@ let total = 150,
     pageBlock = document.querySelector("#page_block"),
     thumbs = document.getElementsByClassName("thumbs"),
     // все иконки пальца вверх
-    iconThumb = document.querySelectorAll(".fa-thumbs-up"),
+    iconThumb = document.querySelectorAll(".fa-piggy-bank"),
     // все инпуты для очистки при переключении
     inputForClear = document.querySelectorAll("input"),
     // Все чекбоксы для подсчета
@@ -29,7 +29,9 @@ let total = 150,
     // Все чекбосы втоорого блока
     checkFirstBlock2 = document.querySelectorAll(".second_block"),
         // Все чекбосы третьего блока
-    checkFirstBlock3 = document.querySelectorAll(".third_block");
+    checkFirstBlock3 = document.querySelectorAll(".third_block"),
+    // Инпут для вызова специалиста
+    profiTrip = document.querySelector("#profi_trip");
     console.log(checkFirstBlock)
 
 // >>>>>>>>>>> Delete class !page_land <<<<<<<<<<<
@@ -131,13 +133,17 @@ window.addEventListener("DOMContentLoaded", () => {
 
         total = shopDefaultShop
         totalValue.value = total;
-    });
-// >>>>>>>>>>>>> Yellow Sign COOL MAN <<<<<<<<<<<<<<<<<<<<<<
 
-let thumbIcon = document.querySelectorAll(".fa-thumbs-up");
+    });
+
+    // Закрываем модальное окончание
+
+// >>>>>>>>>>>>> Yellow Sign pig <<<<<<<<<<<<<<<<<<<<<<
+
+let thumbIcon = document.querySelectorAll(".fa-piggy-bank");
 
 thumbUp.forEach((key, i) => {
-    key.addEventListener("change", () => key.value.length >= 2 ? thumbIcon[i].style.display = "inline-block" : thumbIcon[i].style.display = "none");
+    key.addEventListener("change", () => key.value.length >= 2 ? iconThumb[i].style.display = "inline-block" : iconThumb[i].style.display = "none");
     })
 });
 
@@ -206,8 +212,7 @@ inputChange3.addEventListener("change", () => {
 })
 
 
-
-//  >>>>>>>>>>>>>>>>>>>>>> Добавление в и отнимание в inut number
+//  >>>>>>>>>>>>>>>>>>> Добавление в и отнимание в input number
 
 let valuess = Array.from(inputAllNumber).map((item) => {
     item.addEventListener('input', () => {

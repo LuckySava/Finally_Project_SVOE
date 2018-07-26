@@ -80,3 +80,13 @@ function skipTo_Home() {
 	}
 }
 
+
+function skipTo_HomeMod() {
+	for(let i = 0; i < sectionAll.length; i++) {
+		if(sectionAll[i].classList.contains("section1")) {
+			sectionAll[i].style.display = "block"
+		} else {
+			sectionAll[i].style.display = "none"
+		}
+	}
+}

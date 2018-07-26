@@ -18,7 +18,7 @@ contactForm.addEventListener("submit", (e) => {
 	}).then(function(response) {
 		console.log(response);
 		overlayEle.style.display = 'block';
-		containerElement.setAttribute('class', 'blur');
+		// containerElement.setAttribute('class', 'blur');
 	}).catch(function(data) {
 		console.log(data);
 	});

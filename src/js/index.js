@@ -14,7 +14,7 @@ for (let arrowBlock of arrowBlocks) {
 	arrowLeft.addEventListener("mouseover", () => {
 		if (arrowLine.classList.contains("activeRight") || arrow_text_right.style.opacity == "1") {
 			arrowLine.classList.remove('activeRight');
-			arrow_text_right.style.opacity = "0"
+			arrow_text_right.style.opacity = "0.2"
 		}
 
 		arrowLine.classList.add("activeLeft");
@@ -24,7 +24,7 @@ for (let arrowBlock of arrowBlocks) {
 	arrowRight.addEventListener("mouseover", () => {
 		if (arrowLine.classList.contains("activeLeft") || arrow_text_left.style.opacity == "1") {
 			arrowLine.classList.remove("activeLeft")
-			arrow_text_left.style.opacity = "0"
+			arrow_text_left.style.opacity = "0.2"
 		}
 
 		arrowLine.classList.add("activeRight");

@@ -59,8 +59,7 @@ a {
 	transition: .3s;
 }
 .logo:hover {
-	opacity: .9;
-	transform: scale(1.01)
+	opacity: .8;
 
 }
 .block_1 .main_title {
@@ -124,8 +123,7 @@ a {
 	transition: 0.3s;
 }
 .items:hover .far {
-	transform: scale(1.05);
-	color: #fff963;
+	color: #ff964f;
 }
 
 /* Иконки для блоков */
@@ -305,28 +303,33 @@ label {
 	padding: 15px 0;
 }
 .tab {
-	border-radius: 15px 0 0 0;
-	padding: 15px 14px;
+	/*border-radius: 15px 0 0 0;*/
+	width: 220px;
+	height: 50px;
+	padding-top: 15px;
 	font-size: 18px;
 	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.67) 25%, #323131 100%);
 	color: #E4DFDB;
 	cursor: pointer;
 	position: relative;
+	text-align: center;
+	vertical-align: middle;
 
 }
 .tab:not(:last-child) {
 	margin-right: 4px;
 }
 .tabs_corp {
-	border-radius: 15px 15px 0 0;
+	/*border-radius: 15px 15px 0 0;*/
 }
 .tabs_shop {
-	border-radius: 0 15px 0 0;
+	/*border-radius: 0 15px 0 0;*/
 }
 .active {
 	background: #fd954f;
 	color: #fff;
 	position: relative;
+	border-radius: 10px 10px 0 0;
 }
 .active::after {
 	content: "";
@@ -581,8 +584,9 @@ label {
 }
 
 /* >>>>>>>>>>>>>>>>>> Thubms up <<<<<<<<<<<<<<<<<<<<<< */
-.fa-thumbs-up {
+.fa-piggy-bank {
 	color: #f4944e;
+	font-size: 21px;
 	display: none;
 }
 /* >>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -625,6 +629,15 @@ label {
 	transition: .2s;
 	position: relative;
 }
+
+/*>>>>>>>>>>>>>>>>>>>> Arrows 5 section <<<<<<<<<<<<<<<<<<<<<<<<*/
+.section5 .arrows a {
+	margin-right: 30px;
+}
+.section5 .arrows a span {
+	font-size: 17px;
+}
+
 /* .previousStep:before {
 	content: "⤺";
 	display: inline-block;
