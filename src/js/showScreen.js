@@ -10,7 +10,7 @@ for(let i = 0; i < withoutFirstSection.length; i++) {
     withoutFirstSection[i].style.display = "none"
 }
 
-function skipTo_2() {
+window.skipTo_2 = function skipTo_2() {
 	for(let i = 0; i < sectionAll.length; i++) {
 		if(sectionAll[i].classList.contains("section2")) {
 			sectionAll[i].style.display = "block"
@@ -20,7 +20,7 @@ function skipTo_2() {
 	}
 }
 
-function skipTo_3() {
+window.skipTo_3 = function skipTo_3() {
 	for(let i = 0; i < sectionAll.length; i++) {
 		if(sectionAll[i].classList.contains("section3")) {
 			sectionAll[i].style.display = "block"
@@ -30,7 +30,7 @@ function skipTo_3() {
 	}
 }
 
-function skipTo_3_2() {
+window.skipTo_3_2 = function skipTo_3_2() {
 	for(let i = 0; i < sectionAll.length; i++) {
 		if(sectionAll[i].classList.contains("section3_2")) {
 			sectionAll[i].style.display = "block"
@@ -40,7 +40,7 @@ function skipTo_3_2() {
 	}
 }
 
-function skipTo_3_3() {
+window.skipTo_3_3 = function skipTo_3_3() {
 	for(let i = 0; i < sectionAll.length; i++) {
 		if(sectionAll[i].classList.contains("section3_3")) {
 			sectionAll[i].style.display = "block"
@@ -50,7 +50,7 @@ function skipTo_3_3() {
 	}
 }
 
-function skipTo_4() {
+window.skipTo_4 = function skipTo_4() {
 	for(let i = 0; i < sectionAll.length; i++) {
 		if(sectionAll[i].classList.contains("section4")) {
 			sectionAll[i].style.display = "block"
@@ -60,7 +60,7 @@ function skipTo_4() {
 	}
 }
 
-function skipTo_5() {
+window.skipTo_5 = function skipTo_5() {
 	for(let i = 0; i < sectionAll.length; i++) {
 		if(sectionAll[i].classList.contains("section5")) {
 			sectionAll[i].style.display = "block"
@@ -70,7 +70,7 @@ function skipTo_5() {
 	}
 }
 
-function skipTo_Home() {
+window.skipTo_Home = function skipTo_Home() {
 	for(let i = 0; i < sectionAll.length; i++) {
 		if(sectionAll[i].classList.contains("section1")) {
 			sectionAll[i].style.display = "block"
@@ -81,7 +81,7 @@ function skipTo_Home() {
 }
 
 
-function skipTo_HomeMod() {
+window.skipTo_HomeMod = function skipTo_HomeMod() {
 	for(let i = 0; i < sectionAll.length; i++) {
 		if(sectionAll[i].classList.contains("section1")) {
 			sectionAll[i].style.display = "block"

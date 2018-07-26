@@ -1,3 +1,7 @@
+import WoW from './wow.min';
+
+new WoW.WOW().init();
+
 const switchText = document.getElementById("switch_text"),
 	input = document.getElementById("switch"),
 	block1 = document.getElementById("block_1");
