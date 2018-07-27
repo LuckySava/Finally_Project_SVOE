@@ -1,7 +1,10 @@
 # SVOE Team
 
-If you want to order web site we know how to calculate it! )
+Сервис для заказа веб приложений и расчет их стоимости в онлайне
+
 https://luckysava.github.io/svoe_project/
+
+
 ## How to start
 - Clone latest version
 - `npm i`
